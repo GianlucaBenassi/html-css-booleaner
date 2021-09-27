@@ -21,7 +21,7 @@ main {
 }
 
 /* spaziatura tra le varie sezioni della pagina */
-.title, .images {
+.title, .images, .article p, .article ul{
     margin-bottom: 10px;
 }
 
