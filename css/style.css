@@ -20,7 +20,8 @@ main {
     margin: 5px;
 }
 
-.title {
+/* spaziatura tra le varie sezioni della pagina */
+.title, .images {
     margin-bottom: 10px;
 }
 
@@ -38,4 +39,8 @@ main {
 
 figcaption {
     font-size: 12px;
+}
+
+.highlighted {
+    background-color: yellow;
 }
