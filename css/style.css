@@ -29,6 +29,11 @@ main {
     color: grey;
 }
 
+#autore a {
+    text-decoration: none;
+    color: #20A9E5;
+}
+
 #data {
     font-size: 12px;
 }
@@ -46,7 +51,7 @@ figcaption {
 }
 
 table {
-    text-align: justify;
+    text-align: left;
     width: 100%;
     border-collapse: collapse;
 }
@@ -71,6 +76,7 @@ thead {
     background-size: contain;
     color: white;
     font-weight: bold;
+    padding: 10px;
 }
 
 #first-article {
