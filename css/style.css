@@ -21,7 +21,7 @@ main {
 }
 
 /* spaziatura tra le varie sezioni della pagina */
-.title, .images, .article p, .article ul{
+.title, .images, .article > *{
     margin-bottom: 10px;
 }
 
@@ -43,4 +43,18 @@ figcaption {
 
 .highlighted {
     background-color: yellow;
+}
+
+table {
+    text-align: justify;
+    
+}
+
+thead {
+    color: white;
+    background-color: #20A9E5;
+}
+
+.table-riga-dispari {
+    background-color: #b1e5f2;
 }
