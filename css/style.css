@@ -10,14 +10,18 @@ header {
     height: 100px;
 }
 
-main {
-    margin: 5px;
-}
-
 #logo {
     width: 150px;
     margin-top: 50px;
     margin-left: 10px;
+}
+
+main {
+    margin: 5px;
+}
+
+.title {
+    margin-bottom: 10px;
 }
 
 #autore, #data {
@@ -25,5 +29,13 @@ main {
 }
 
 #data {
+    font-size: 12px;
+}
+
+.images img {
+    height: 300px;
+}
+
+figcaption {
     font-size: 12px;
 }
